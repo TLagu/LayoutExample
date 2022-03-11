@@ -1,0 +1,26 @@
+.header__logo_and_slogan {
+  display: flex;
+  margin-top: 0;
+}
+
+.header__logo {
+  width: 64px;
+  height: 64px;
+}
+
+.header__logo img {
+  margin: 0;
+}
+
+.header__slogan {
+  width: 350px;
+  min-width: 350px;
+  height: 64px;
+  font-size: 32px;
+  margin-left: 25px;
+  line-height: 64px;
+}
+
+.header__content {
+  margin-top: 25px;
+}

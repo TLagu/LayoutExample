@@ -1,0 +1,30 @@
+.main {
+  display: flex;
+}
+
+.section {
+  flex: 10;
+  margin-right: 25px;
+}
+
+.main__article {
+  text-align: center;
+  line-height: 30px;
+  border-radius: 5px;
+  background-color: #999999;
+  margin-top: 25px;
+}
+
+.main__article:first-child {
+  margin-top: 0;
+}
+
+.aside {
+  flex: none;
+  width: 250px;
+}
+
+.main__quick_link {
+  font-size: 20px;
+  font-weight: bold;
+}

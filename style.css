@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  font-family: Hubballi, cursive;
+  margin: 0;
+  padding: 0;
+  border: none;
+  margin-block: 0;
+  color: white;
+  text-align: center;
+}
+
+body {
+  background-color: gainsboro;
+  padding: 25px;
+  font-size: 16px;
+  min-width: 1000px;
+}
+
+.header__logo_and_slogan,
+.header__content,
+.menu,
+.section,
+.main__quick_link,
+.footer {
+  border-radius: 5px;
+  background-color: #666666;
+  width: 100%;
+  padding: 25px;
+  margin-top: 25px;
+}
